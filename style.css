@@ -1,0 +1,2988 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.websiteBody {
+  margin: 0;
+}
+
+.Page {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  pointer-events: auto;
+}
+
+.Page-outer {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.Frame {
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+  max-width: 100%;
+  margin: auto;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.Frame-outer {
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hero {
+  position: relative;
+  z-index: 3;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0.32999999999992724px;
+  min-height: 3927.67px;
+  background-color: #0D0D0D;
+}
+
+.hero-outer {
+  pointer-events: none;
+  z-index: 3;
+  position: relative;
+  display: flex;
+}
+
+.Navigation-Bar {
+  position: relative;
+  z-index: 4;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 3847.67px;
+  min-height: 85px;
+  background-color: rgba(13, 13, 13, 1);
+}
+
+.Navigation-Bar-outer {
+  pointer-events: none;
+  z-index: 4;
+  position: relative;
+  display: flex;
+}
+
+.Nav-container {
+  position: relative;
+  z-index: 5;
+  pointer-events: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 100%;
+  min-width: 1303px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 80px;
+}
+
+.Nav-container-outer {
+  pointer-events: none;
+  z-index: 5;
+  position: relative;
+  display: flex;
+}
+
+.Right-2 {
+  position: relative;
+  z-index: 8;
+  pointer-events: none;
+  margin-left: 100%;
+  width: 474px;
+  min-width: 1000px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  min-height: 40px;
+}
+
+.Right-2-outer {
+  pointer-events: none;
+  z-index: 8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.follow_me_button {
+  position: relative;
+  pointer-events: auto;
+  height: 40px;
+  display: flex;
+  background-color: transparent;
+  border: 2px solid rgba(32, 193, 165, 1);
+  border-radius: 20px;
+  z-index: 16;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
+}
+
+.follow_me_button:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+}
+
+.button-me {
+  position: relative;
+  z-index: 15;
+  pointer-events: none;
+  margin-left: 364px;
+  width: 110px;
+  min-width: 110px;
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 40px;
+  border-color: rgba(32, 193, 165, 1);
+  border-radius: 2px;
+}
+
+.button-me-outer {
+  pointer-events: none;
+  z-index: 15;
+  position: relative;
+  display: flex;
+}
+
+.Follow-me {
+  position: relative;
+  z-index: 17;
+  pointer-events: none;
+  width: 67px;
+  height: 19.05px;
+  margin-top: 1.0499999999999972px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.200000762939453px;
+}
+
+.Follow-me-outer {
+  pointer-events: none;
+  z-index: 17;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  left: 0;
+  top: 0;
+  align-items: center;
+}
+
+.links-nav {
+  position: relative;
+  z-index: 9;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 339px;
+  min-width: 339px;
+  height: 20px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  min-height: 20px;
+}
+
+.links-nav-outer {
+  pointer-events: none;
+  z-index: 9;
+  position: relative;
+  display: flex;
+}
+
+.About-me {
+  position: relative;
+  z-index: 14;
+  pointer-events: auto;
+  margin-right: 0px;
+  width: 65px;
+  min-width: 65px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.200000762939453px;
+}
+
+.About-me-outer {
+  pointer-events: auto;
+  z-index: 14;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+}
+
+.Projects-1 {
+  position: relative;
+  z-index: 14;
+  pointer-events: auto;
+  margin-right: 90px;
+  width: 54px;
+  min-width: 54px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  min-height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.200000762939453px;
+}
+
+.Projects-1-outer {
+  pointer-events: auto;
+  z-index: 14;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+}
+
+.Socials {
+  position: relative;
+  z-index: 14;
+  pointer-events: auto;
+  margin-right: 169px;
+  width: 46px;
+  min-width: 46px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  min-height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.200000762939453px;
+}
+
+.Socials-outer {
+  pointer-events: auto;
+  z-index: 14;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+}
+
+.Drive {
+  position: relative;
+  z-index: 14;
+  pointer-events: auto;
+  margin-right: 240px;
+  width: 36px;
+  min-width: 36px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  min-height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.200000762939453px;
+}
+
+.Drive-outer {
+  pointer-events: auto;
+  z-index: 14;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+}
+
+.NFT-s {
+  position: relative;
+  z-index: 14;
+  pointer-events: auto;
+  margin-right: 301px;
+  width: 38px;
+  min-width: 38px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  min-height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.200000762939453px;
+}
+
+.NFT-s-outer {
+  pointer-events: auto;
+  z-index: 14;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+}
+
+.Left-2 {
+  position: relative;
+  z-index: 6;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 65px;
+  min-width: 60px;
+  height: 37px;
+  margin-top: -38px;
+  margin-bottom: 0px;
+  min-height: 0px;
+}
+
+.Left-2-outer {
+  pointer-events: none;
+  z-index: 6;
+  position: relative;
+  display: flex;
+}
+
+.D-VVV-1 {
+  position: relative;
+  z-index: 7;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 79px;
+  min-width: 79px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 37px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -1.92px;
+  line-height: 36.79999923706055px;
+}
+
+.D-VVV-1-outer {
+  pointer-events: none;
+  z-index: 7;
+  position: relative;
+  display: flex;
+}
+
+.D-VVV-1-1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -1.92px;
+  line-height: 36.79999923706055px;
+}
+
+.D-VVV-1-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: -1.92px;
+  line-height: 36.79999923706055px;
+}
+
+.Main-landpage {
+  position: relative;
+  z-index: 18;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 800px;
+  margin-top: -3850px;
+  margin-bottom: 3007.67px;
+  min-height: 800px;
+  background-color: rgba(13, 13, 13, 1);
+}
+
+.Main-landpage-outer {
+  pointer-events: none;
+  z-index: 18;
+  position: relative;
+  display: flex;
+}
+
+.container-2 {
+  position: relative;
+  z-index: 19;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 800px;
+}
+
+.container-2-outer {
+  pointer-events: none;
+  z-index: 19;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.image12 {
+  position: relative;
+  z-index: 21;
+  pointer-events: none;
+  margin-left: 715px;
+  width: 720px;
+  min-width: 720px;
+  height: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 800px;
+  background-image: url(images/heroimage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image12.animate-enter-pic {
+  animation: animate-enter-frames1 0.4s ease-in 0s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-enter-frames1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image12-outer {
+  pointer-events: none;
+  z-index: 21;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.I-M-DHRUVVV-3D-ARTIS {
+  position: relative;
+  z-index: 20;
+  pointer-events: none;
+  margin-left: 76px;
+  width: 739px;
+  min-width: 739px;
+  margin-top: -500px;
+  margin-bottom: 230px;
+  min-height: 339px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Futura Md BT';
+  font-weight: 500;
+  font-size: 94px;
+  opacity: 0;
+  line-height: 112.80000305175781px;
+}
+
+.animate-enter {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enter.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.I-M-DHRUVVV-3D-ARTIS-outer {
+  pointer-events: none;
+  z-index: 20;
+  position: relative;
+  display: flex;
+}
+
+.I-M-DHRUVVV-3D-ARTIS-1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: 'Futura Md BT';
+  font-weight: 500;
+  font-size: 94px;
+  line-height: 112.80000305175781px;
+}
+
+.I-M-DHRUVVV-3D-ARTIS-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 94px;
+  line-height: 112.80000305175781px;
+}
+
+.I-M-DHRUVVV-3D-ARTIS-3 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 94px;
+  line-height: 112.80000305175781px;
+}
+
+.Aboutme-landpage {
+  position: relative;
+  z-index: 22;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 640px;
+  margin-top: -2967.67px;
+  margin-bottom: 2327.67px;
+  min-height: 640px;
+}
+
+.Aboutme-landpage-outer {
+  pointer-events: none;
+  z-index: 22;
+  position: relative;
+  display: flex;
+}
+
+.Container-1 {
+  position: relative;
+  z-index: 23;
+  pointer-events: none;
+  width: 1323px;
+  min-width: 1323px;
+  height: 600px;
+  min-height: 600px;
+}
+
+.Container-1-outer {
+  pointer-events: none;
+  z-index: 23;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-left {
+  position: relative;
+  z-index: 25;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1323px;
+  min-width: 1323px;
+  height: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 600px;
+}
+
+.right-left-outer {
+  pointer-events: none;
+  z-index: 25;
+  position: relative;
+  display: flex;
+}
+
+.q1-edit-for-posting- {
+  position: relative;
+  z-index: 26;
+  pointer-events: none;
+  margin-right: 673px;
+  width: 650px;
+  min-width: 650px;
+  height: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 600px;
+  content: url(images/about\ meimage.png);
+  border-radius: 20px;
+}
+
+.q1-edit-for-posting--outer {
+  pointer-events: none;
+  z-index: 26;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+}
+
+.left {
+  position: relative;
+  z-index: 27;
+  pointer-events: none;
+  margin-left: 745px;
+  width: 578px;
+  min-width: 578px;
+  height: 442px;
+  margin-top: -442px;
+  margin-bottom: 0px;
+  min-height: 442px;
+}
+
+.left-outer {
+  pointer-events: none;
+  z-index: 27;
+  position: relative;
+  display: flex;
+}
+
+.I-m-Dhruv-from-ahmed {
+  position: relative;
+  z-index: 28;
+  pointer-events: none;
+  margin-left: 15px;
+  width: 548px;
+  min-width: 548px;
+  margin-top: -4px;
+  margin-bottom: 109px;
+  min-height: 318px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: 'Futura Bk BT';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 44px;
+}
+
+.I-m-Dhruv-from-ahmed-outer {
+  pointer-events: none;
+  z-index: 28;
+  position: relative;
+  display: flex;
+}
+
+.I-m-Dhruv-from-ahmed-1 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: 'Futura Bk BT';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+
+.I-m-Dhruv-from-ahmed-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: 'Futura Bk BT';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+
+.I-m-Dhruv-from-ahmed-3 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+
+.I-m-Dhruv-from-ahmed-4 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+
+.I-m-Dhruv-from-ahmed-5 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+
+.me {
+  position: relative;
+  z-index: 29;
+  pointer-events: none;
+  margin-left: 463px;
+  width: 100px;
+  min-width: 100px;
+  margin-top: -220px;
+  margin-bottom: 85px;
+  min-height: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Hurricane;
+  font-weight: 400;
+  font-size: 130px;
+  letter-spacing: 2.6px;
+  opacity: 0;
+  transform: translate(0, 25px);
+  line-height: 179.1999969482422px;
+}
+
+.animate-enter-me {
+  transition: 0.7s ease-in;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enter-me.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+
+.me-outer {
+  pointer-events: none;
+  z-index: 29;
+  position: relative;
+  display: flex;
+}
+
+.About {
+  position: absolute;
+  z-index: 27;
+  pointer-events: none;
+  margin-left: 451px;
+  width: 424px;
+  min-width: 421px;
+  margin-top: -600px;
+  margin-bottom: 420px;
+  min-height: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 150px;
+  letter-spacing: 3px;
+  line-height: 180px;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.torvlabt {
+  transform: translate(0, 25px);
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.torvlabt.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.About-outer {
+  pointer-events: none;
+  z-index: 27;
+  position: relative;
+  display: flex;
+}
+
+.NFT-landpage {
+  position: relative;
+  z-index: 30;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 724px;
+  margin-top: -2287.67px;
+  margin-bottom: 1563.67px;
+  min-height: 724px;
+}
+
+.NFT-landpage-outer {
+  pointer-events: none;
+  z-index: 30;
+  position: relative;
+  display: flex;
+}
+
+.NFT-container {
+  position: relative;
+  z-index: 31;
+  pointer-events: none;
+  width: 1246px;
+  min-width: 1246px;
+  height: 644px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 644px;
+}
+
+.NFT-container-outer {
+  pointer-events: none;
+  z-index: 31;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Right-1 {
+  position: relative;
+  z-index: 32;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 645px;
+  min-width: 645px;
+  height: 644px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 644px;
+}
+
+.Right-1-outer {
+  pointer-events: none;
+  z-index: 32;
+  position: relative;
+  display: flex;
+}
+
+.My-own-NFT-Project-- {
+  position: relative;
+  z-index: 33;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 390px;
+  min-width: 390px;
+  margin-top: 0px;
+  margin-bottom: 490px;
+  min-height: 154px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76.80000305175781px;
+}
+
+.My-own-NFT-Project---outer {
+  pointer-events: none;
+  z-index: 33;
+  position: relative;
+  display: flex;
+}
+
+.My-own-NFT-Project---1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76.80000305175781px;
+}
+
+.My-own-NFT-Project---2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76.80000305175781px;
+}
+
+.My-own-NFT-Project---3 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76.80000305175781px;
+}
+
+.frames {
+  position: relative;
+  z-index: 34;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 645px;
+  min-width: 645px;
+  height: 425px;
+  margin-top: -425px;
+  margin-bottom: 0px;
+  min-height: 425px;
+}
+
+.frames-outer {
+  pointer-events: none;
+  z-index: 34;
+  position: relative;
+  display: flex;
+}
+
+.Frame-7 {
+  position: relative;
+  z-index: 37;
+  pointer-events: none;
+  margin-left: 299px;
+  width: 346px;
+  min-width: 346px;
+  height: 425px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 425px;
+  background-image: url(images/nft\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+  border-radius: 16px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enterimg1 {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  transform: translate(-25px, 0);
+  transition-delay: 0.4s;
+}
+
+.animate-enterimg1.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Frame-7-outer {
+  pointer-events: none;
+  z-index: 37;
+  position: relative;
+  display: flex;
+}
+
+.Frame-6 {
+  position: relative;
+  z-index: 36;
+  pointer-events: none;
+  margin-left: 145px;
+  width: 334px;
+  min-width: 334px;
+  height: 411px;
+  margin-top: -418px;
+  margin-bottom: 7px;
+  min-height: 411px;
+  background-image: url(images/nft\ 2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+  border-radius: 16px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enterimg2 {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  transform: translate(-25px, 0);
+  transition-delay: 0.2s;
+}
+
+.animate-enterimg2.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Frame-6-outer {
+  pointer-events: none;
+  z-index: 36;
+  position: relative;
+  display: flex;
+}
+
+.Frame-5 {
+  position: relative;
+  z-index: 35;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 325px;
+  min-width: 325px;
+  height: 400px;
+  margin-top: -412px;
+  margin-bottom: 12px;
+  min-height: 400px;
+  background-image: url(images/nft\ 3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enterimg3 {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enterimg3.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Frame-5-outer {
+  pointer-events: none;
+  z-index: 35;
+  position: relative;
+  display: flex;
+}
+
+.Left-1 {
+  position: relative;
+  z-index: 38;
+  pointer-events: none;
+  margin-left: 755px;
+  width: 491px;
+  min-width: 491px;
+  height: 560px;
+  margin-top: -560px;
+  margin-bottom: 0px;
+  min-height: 560px;
+}
+
+.Left-1-outer {
+  pointer-events: none;
+  z-index: 38;
+  position: relative;
+  display: flex;
+}
+
+.An-ERC-721-token-NFT {
+  position: relative;
+  z-index: 39;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 491px;
+  min-width: 491px;
+  margin-top: -60px;
+  margin-bottom: 310px;
+  min-height: 250px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(207, 207, 207, 1);
+  font-style: normal;
+  font-family: 'Futura Md BT';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.An-ERC-721-token-NFT-outer {
+  pointer-events: none;
+  z-index: 39;
+  position: relative;
+  display: flex;
+}
+
+.ECCENTRIC {
+  position: relative;
+  z-index: 40;
+  pointer-events: none;
+  margin-left: 87px;
+  width: 404px;
+  min-width: 404px;
+  margin-top: -70px;
+  margin-bottom: 0px;
+  min-height: 70px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70.4000015258789px;
+}
+
+.ECCENTRIC span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: flip 3s;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+.eccentric2c {
+  color: rgba(32, 193, 165, 1);
+}
+
+.ECCENTRIC-outer {
+  pointer-events: none;
+  z-index: 40;
+  position: relative;
+  display: flex;
+}
+
+.Socials-landpage {
+  position: relative;
+  z-index: 41;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 105px;
+  margin-top: -1523.67px;
+  margin-bottom: 1418.67px;
+  min-height: 105px;
+}
+
+.Socials-landpage-outer {
+  pointer-events: none;
+  z-index: 41;
+  position: relative;
+  display: flex;
+}
+
+.Socials-container {
+  position: relative;
+  z-index: 42;
+  pointer-events: none;
+  width: 1154px;
+  min-width: 1154px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 45px;
+}
+
+.Socials-container-outer {
+  pointer-events: none;
+  z-index: 42;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Linked-iN {
+  position: relative;
+  z-index: 51;
+  pointer-events: auto;
+  margin-left: 663px;
+  width: 162px;
+  min-width: 162px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 25px;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterLI {
+  transition: 0.4s ease-in-out;
+  transition-delay: 160ms;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterLI.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Linked-iN-outer {
+  pointer-events: auto;
+  z-index: 51;
+  position: relative;
+  display: flex;
+}
+
+.q---icon--linkedin--1 {
+  position: relative;
+  z-index: 52;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 25px;
+  min-width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 25px;
+}
+
+.q---icon--linkedin--1-outer {
+  pointer-events: none;
+  z-index: 52;
+  position: relative;
+  display: flex;
+}
+
+.Vector-5 {
+  position: relative;
+  z-index: 53;
+  pointer-events: none;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/linkedin.svg);
+}
+
+.Vector-5-outer {
+  pointer-events: none;
+  z-index: 53;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.dhruvpatel25 {
+  position: relative;
+  z-index: 54;
+  pointer-events: none;
+  margin-left: 45px;
+  width: 117px;
+  min-width: 117px;
+  margin-top: -24px;
+  margin-bottom: 0px;
+  min-height: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dhruvpatel25-outer {
+  pointer-events: none;
+  z-index: 54;
+  position: relative;
+  display: flex;
+}
+
+.Github {
+  position: relative;
+  z-index: 51;
+  pointer-events: auto;
+  margin-left: 350px;
+  width: 133px;
+  min-width: 133px;
+  height: 24.39px;
+  margin-top: -35px;
+  margin-bottom: 10.610000000000127px;
+  min-height: 24.39px;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterGT {
+  transition: 0.4s ease-in-out;
+  transition-delay: 80ms;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterGT.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Github-outer {
+  pointer-events: auto;
+  z-index: 51;
+  position: relative;
+  display: flex;
+}
+
+.Dhruvp25 {
+  position: relative;
+  z-index: 50;
+  pointer-events: none;
+  margin-left: 45px;
+  width: 88px;
+  min-width: 88px;
+  margin-top: 0px;
+  margin-bottom: 0.38999999999987267px;
+  min-height: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Dhruvp25-outer {
+  pointer-events: none;
+  z-index: 50;
+  position: relative;
+  display: flex;
+}
+
+.q---icon--github--1 {
+  position: relative;
+  z-index: 48;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 25px;
+  min-width: 25px;
+  height: 24.39px;
+  margin-top: -24.39px;
+  margin-bottom: 0px;
+  min-height: 24.39px;
+}
+
+.q---icon--github--1-outer {
+  pointer-events: none;
+  z-index: 48;
+  position: relative;
+  display: flex;
+}
+
+.Vector-6 {
+  position: relative;
+  z-index: 49;
+  pointer-events: none;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/github.svg);
+}
+
+.Vector-6-outer {
+  pointer-events: none;
+  z-index: 49;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.Instagram {
+  position: relative;
+  z-index: 51;
+  pointer-events: auto;
+  margin-left: 10px;
+  width: 160px;
+  min-width: 160px;
+  height: 25px;
+  margin-top: -35px;
+  margin-bottom: 10px;
+  min-height: 25px;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterIS {
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterIS.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Instagram-outer {
+  pointer-events: auto;
+  z-index: 51;
+  position: relative;
+  display: flex;
+}
+
+.q---icon--instagram--1 {
+  position: relative;
+  z-index: 44;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 25px;
+  min-width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 25px;
+}
+
+.q---icon--instagram--1-outer {
+  pointer-events: none;
+  z-index: 44;
+  position: relative;
+  display: flex;
+}
+
+.Vector-7 {
+  position: relative;
+  z-index: 45;
+  pointer-events: none;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/instagram.svg);
+}
+
+.Vector-7-outer {
+  pointer-events: none;
+  z-index: 45;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.dhruvvv2512 {
+  position: relative;
+  z-index: 46;
+  pointer-events: none;
+  margin-left: 45px;
+  width: 115px;
+  min-width: 115px;
+  margin-top: -24px;
+  margin-bottom: 0px;
+  min-height: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dhruvvv2512-outer {
+  pointer-events: none;
+  z-index: 46;
+  position: relative;
+  display: flex;
+}
+
+.Twitter {
+  position: relative;
+  z-index: 55;
+  pointer-events: auto;
+  margin-left: 1005px;
+  width: 139px;
+  min-width: 139px;
+  height: 24px;
+  margin-top: -34px;
+  margin-bottom: 10px;
+  min-height: 24px;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterTWR {
+  transition: 0.4s ease-in-out;
+  transition-delay: 240ms;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+.animate-enterTWR.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Twitter-outer {
+  pointer-events: auto;
+  z-index: 55;
+  position: relative;
+  display: flex;
+}
+
+.dhruvvibes {
+  position: relative;
+  z-index: 58;
+  pointer-events: none;
+  margin-left: 45px;
+  width: 94px;
+  min-width: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dhruvvibes-outer {
+  pointer-events: none;
+  z-index: 58;
+  position: relative;
+  display: flex;
+}
+
+.q---icon--twitter--1 {
+  position: relative;
+  z-index: 56;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 25px;
+  min-width: 25px;
+  height: 20.32px;
+  margin-top: -22px;
+  margin-bottom: 1.6799999999998363px;
+  min-height: 20.32px;
+}
+
+.q---icon--twitter--1-outer {
+  pointer-events: none;
+  z-index: 56;
+  position: relative;
+  display: flex;
+}
+
+.Vector-4 {
+  position: relative;
+  z-index: 57;
+  pointer-events: none;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: -4%;
+  content: url(images/twitter.svg);
+}
+
+.Vector-4-outer {
+  pointer-events: none;
+  z-index: 57;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.Projects-landpage {
+  position: relative;
+  z-index: 59;
+  pointer-events: none;
+  margin-left: 0px;
+  min-width: 1440px;
+  height: 893.66px;
+  margin-top: -1378.67px;
+  margin-bottom: 485.0100000000002px;
+  min-height: 893.66px;
+}
+
+.Projects-landpage-outer {
+  pointer-events: none;
+  z-index: 59;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Pro-Container {
+  position: relative;
+  z-index: 60;
+  pointer-events: none;
+  width: 1246px;
+  min-width: 1246px;
+  height: 813.66px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 813.66px;
+}
+
+.Pro-Container-outer {
+  pointer-events: none;
+  z-index: 60;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Selected {
+  position: relative;
+  z-index: 61;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 484px;
+  min-width: 483px;
+  margin-top: 0px;
+  margin-bottom: 693.6599999999999px;
+  min-height: 120px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 100px;
+  letter-spacing: 1px;
+  line-height: 119.20000457763672px;
+}
+
+.Selected-outer {
+  pointer-events: none;
+  z-index: 61;
+  position: relative;
+  display: flex;
+}
+
+.Selected-1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 100px;
+  letter-spacing: 1px;
+  line-height: 119.20000457763672px;
+}
+
+.Selected-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 100px;
+  letter-spacing: 1px;
+  line-height: 119.20000457763672px;
+}
+
+.Container {
+  position: relative;
+  z-index: 62;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1246px;
+  min-width: 1246px;
+  height: 683.66px;
+  margin-top: -683.66px;
+  margin-bottom: 0px;
+  min-height: 683.66px;
+}
+
+.Container-outer {
+  pointer-events: none;
+  z-index: 62;
+  position: relative;
+  display: flex;
+}
+
+.upper-port {
+  position: relative;
+  z-index: 63;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1246px;
+  min-width: 1246px;
+  height: 354.25px;
+  margin-top: 0px;
+  margin-bottom: 329.40999999999985px;
+  min-height: 354.25px;
+}
+
+.upper-port-outer {
+  pointer-events: none;
+  z-index: 63;
+  position: relative;
+  display: flex;
+}
+
+.q1-foto {
+  position: relative;
+  z-index: 64;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1246px;
+  min-width: 1246px;
+  height: 281.25px;
+  margin-top: 0px;
+  margin-bottom: 73px;
+  min-height: 281.25px;
+}
+
+.q1-foto-outer {
+  pointer-events: none;
+  z-index: 64;
+  position: relative;
+  display: flex;
+}
+
+.q13ewdfgdh-1 {
+  position: relative;
+  z-index: 66;
+  pointer-events: none;
+  margin-left: 746px;
+  width: 500px;
+  min-width: 500px;
+  height: 281.25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 281.25px;
+  content: url(images/works.png);
+  opacity: 0;
+}
+
+.animate-enter-imgworks {
+  transition: 0.4s ease-in-out;
+  display: block;
+  opacity: 0;
+}
+
+.animate-enter-imgworks.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.q13ewdfgdh-1-outer {
+  pointer-events: none;
+  z-index: 66;
+  position: relative;
+  display: flex;
+}
+
+.q3d-visualization-of {
+  position: relative;
+  z-index: 65;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 646px;
+  min-width: 646px;
+  margin-top: -230.25px;
+  margin-bottom: 50.25px;
+  min-height: 180px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Futura Bk BT';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+  line-height: 52px;
+  opacity: 0;
+}
+
+.animate-enterq3d {
+  transition: 0.4s ease-in;
+  opacity: 0;
+}
+
+.animate-enterq3d.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.q3d-visualization-of-outer {
+  pointer-events: none;
+  z-index: 65;
+  position: relative;
+  display: flex;
+}
+
+.q3d-visualization-of-1 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  line-height: 29.600000381469727px;
+}
+
+.q3d-visualization-of-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  line-height: 29.600000381469727px;
+}
+
+.q3d-visualization-of-3 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  line-height: 29.600000381469727px;
+}
+
+.Works {
+  position: relative;
+  z-index: 67;
+  pointer-events: none;
+  margin-left: 700px;
+  width: 210px;
+  min-width: 210px;
+  margin-top: -138.25px;
+  margin-bottom: 0.25px;
+  min-height: 138px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Hurricane;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 138.40000915527344px;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+.animate-enter-works {
+  transition: 0.50s ease-in-out;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+.animate-enter-works.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Works-outer {
+  pointer-events: none;
+  z-index: 67;
+  position: relative;
+  display: flex;
+}
+
+.lower-port {
+  position: relative;
+  z-index: 68;
+  pointer-events: none;
+  margin-left: 34px;
+  width: 1179px;
+  min-width: 1179px;
+  height: 354.41px;
+  margin-top: -354.65999999999997px;
+  margin-bottom: 0.25px;
+  min-height: 354.41px;
+}
+
+.lower-port-outer {
+  pointer-events: none;
+  z-index: 68;
+  position: relative;
+  display: flex;
+}
+
+.Projects {
+  position: relative;
+  z-index: 72;
+  pointer-events: none;
+  margin-left: 320px;
+  width: 222px;
+  min-width: 222px;
+  margin-top: 0px;
+  margin-bottom: 216.40999999999985px;
+  min-height: 138px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Hurricane;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 138.40000915527344px;
+  opacity: 0;
+  transform: translate(-25px, 0)
+}
+
+.animate-enter-projects {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enter-projects.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Projects-outer {
+  pointer-events: none;
+  z-index: 72;
+  position: relative;
+  display: flex;
+}
+
+.q2-foto {
+  position: relative;
+  z-index: 70;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1179px;
+  min-width: 1179px;
+  height: 281.41px;
+  margin-top: -281.41px;
+  margin-bottom: 0px;
+  min-height: 281.41px;
+}
+
+.q2-foto-outer {
+  pointer-events: none;
+  z-index: 70;
+  position: relative;
+  display: flex;
+}
+
+.landscape {
+  position: relative;
+  z-index: 71;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 500px;
+  min-width: 500px;
+  height: 281.41px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 281.41px;
+  content: url(images/projects.png);
+  opacity: 0;
+}
+
+.animate-enter-imgproj {
+  transition: 0.40s ease-in;
+  display: block;
+  opacity: 0;
+}
+
+.animate-enter-imgproj.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.landscape-outer {
+  pointer-events: none;
+  z-index: 71;
+  position: relative;
+  display: flex;
+}
+
+.Ultra-realistic-land {
+  position: relative;
+  z-index: 72;
+  pointer-events: none;
+  margin-left: 600px;
+  width: 579px;
+  min-width: 579px;
+  margin-top: -230.41000000000003px;
+  margin-bottom: 50.409999999999854px;
+  min-height: 180px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: 'Futura Bk BT';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 52px;
+  opacity: 0;
+}
+
+.animate-enter-ultra {
+  transition: 0.50s ease-in;
+  opacity: 0;
+}
+
+.animate-enter-ultra.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Ultra-realistic-land-outer {
+  pointer-events: none;
+  z-index: 72;
+  position: relative;
+  display: flex;
+}
+
+.Ultra-realistic-land-1 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.600000381469727px;
+}
+
+.Ultra-realistic-land-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.600000381469727px;
+}
+
+.Ultra-realistic-land-3 {
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29.600000381469727px;
+}
+
+.Drive-landpage {
+  position: relative;
+  z-index: 73;
+  pointer-events: none;
+  width: 100%;
+  min-width: 1440px;
+  height: 85px;
+  margin-top: -444.6700000000001px;
+  margin-bottom: 309.6700000000001px;
+  min-height: 85px;
+}
+
+.Drive-landpage-outer {
+  pointer-events: none;
+  z-index: 73;
+  position: relative;
+  display: flex;
+}
+
+.Container-driver {
+  position: relative;
+  z-index: 74;
+  pointer-events: none;
+  margin-left: 191px;
+  width: auto;
+  min-width: 1058px;
+  height: 85px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  min-height: 85px;
+  margin: auto;
+}
+
+.Container-driver-outer {
+  pointer-events: none;
+  z-index: 74;
+  position: relative;
+  display: flex;
+}
+
+.Left {
+  position: relative;
+  z-index: 75;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 465px;
+  min-width: 465px;
+  height: 85px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 85px;
+}
+
+.Left-outer {
+  pointer-events: none;
+  z-index: 75;
+  position: relative;
+  display: flex;
+}
+
+.My-Cloud-Drive {
+  position: relative;
+  z-index: 76;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 347px;
+  min-width: 347px;
+  margin-top: 0px;
+  margin-bottom: 31px;
+  min-height: 54px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53.60000228881836px;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enter-cloud {
+  transition: 0.40s ease-in;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enter-cloud.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.My-Cloud-Drive-outer {
+  pointer-events: none;
+  z-index: 76;
+  position: relative;
+  display: flex;
+}
+
+.My-Cloud-Drive-1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53.60000228881836px;
+}
+
+.My-Cloud-Drive-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53.60000228881836px;
+}
+
+.My-Cloud-Drive-3 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53.60000228881836px;
+}
+
+.My-personal-cloud {
+  position: relative;
+  z-index: 77;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 465px;
+  min-width: 465px;
+  margin-top: -26px;
+  margin-bottom: 0px;
+  min-height: 26px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25.600000381469727px;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enter-myper {
+  transition: 0.40s ease-in;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.animate-enter-myper.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.My-personal-cloud-se-outer {
+  pointer-events: none;
+  z-index: 77;
+  position: relative;
+  display: flex;
+}
+
+.Right {
+  position: relative;
+  z-index: 78;
+  pointer-events: auto;
+  margin-left: 815px;
+  width: 210px;
+  min-width: 243px;
+  height: 50px;
+  margin-top: -80px;
+  min-height: 76px;
+  border: 3px solid rgba(32, 193, 165, 1);
+  border-radius: 40px;
+}
+
+.animate-enter-drive {
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.animate-enter-drive.activestate {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.Right-outer {
+  pointer-events: auto;
+  z-index: 78;
+  position: relative;
+  display: flex;
+  opacity: 0;
+}
+
+.Drive-login {
+  position: relative;
+  z-index: 79;
+  pointer-events: none;
+  margin-left: auto;
+  width: 192px;
+  min-width: 143px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 36px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.Drive-login-outer {
+  pointer-events: none;
+  z-index: 79;
+  position: relative;
+  display: flex;
+}
+
+.Footer-page {
+  position: relative;
+  z-index: 80;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1440px;
+  height: 100%;
+  margin-top: -269.6700000000001px;
+  margin-bottom: -0.32999999999992724px;
+  min-height: 250px;
+}
+
+.Footer-page-outer {
+  pointer-events: none;
+  z-index: 80;
+  position: relative;
+  display: flex;
+}
+
+.Frame-1 {
+  position: relative;
+  z-index: 81;
+  pointer-events: none;
+  width: 100%;
+  min-width: 1080px;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 200px;
+}
+
+.Frame-1-outer {
+  pointer-events: none;
+  z-index: 81;
+  position: relative;
+  display: flex;
+  width: auto;
+}
+
+.G-upper-Foot {
+  position: relative;
+  z-index: 82;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1234px;
+  min-width: 1234px;
+  height: 84px;
+  margin-top: 0px;
+  margin-bottom: 116px;
+  min-height: 84px;
+}
+
+.G-upper-Foot-outer {
+  pointer-events: none;
+  z-index: 82;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-foot {
+  position: relative;
+  z-index: 84;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1234px;
+  min-width: 1234px;
+  height: 84px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 84px;
+}
+
+.middle-foot-outer {
+  pointer-events: none;
+  z-index: 84;
+  position: relative;
+  display: flex;
+}
+
+.GREAT-ARTISTS-STEAL- {
+  position: relative;
+  z-index: 86;
+  pointer-events: none;
+  margin-left: 985px;
+  width: 249px;
+  min-width: 249px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 84px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 0.35px;
+  line-height: 41.60000228881836px;
+}
+
+.GREAT-ARTISTS-STEAL--outer {
+  pointer-events: none;
+  z-index: 86;
+  position: relative;
+  display: flex;
+}
+
+.GREAT-ARTISTS-STEAL--1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 0.35px;
+  line-height: 41.60000228881836px;
+}
+
+.GREAT-ARTISTS-STEAL--2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 0.35px;
+  line-height: 41.60000228881836px;
+}
+
+.GREAT-ARTISTS-STEAL--3 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 0.35px;
+  line-height: 41.60000228881836px;
+}
+
+.D-VVV {
+  position: relative;
+  z-index: 85;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 62px;
+  min-width: 62px;
+  margin-top: -84px;
+  margin-bottom: 55px;
+  min-height: 29px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: -1.5px;
+  line-height: 28.80000114440918px;
+}
+
+.D-VVV-outer {
+  pointer-events: none;
+  z-index: 85;
+  position: relative;
+  display: flex;
+}
+
+.D-VVV-1 {
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: -1.5px;
+  line-height: 28.80000114440918px;
+}
+
+.D-VVV-2 {
+  color: rgba(32, 193, 165, 1);
+  font-style: normal;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: -1.5px;
+  line-height: 28.80000114440918px;
+}
+
+.Home {
+  position: relative;
+  z-index: 83;
+  pointer-events: auto;
+  margin-left: 586px;
+  width: 63px;
+  min-width: 63px;
+  margin-top: -84px;
+  margin-bottom: 55px;
+  min-height: 29px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d0d0d0;
+  font-style: normal;
+  font-family: Futura Md BT;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -1.44px;
+  line-height: 28.80000114440918px;
+  text-decoration: none;
+}
+
+.Home-outer {
+  pointer-events: auto;
+  z-index: 83;
+  position: relative;
+  display: flex;
+  text-decoration: none;
+}
+
+.G-lower-Foot {
+  position: relative;
+  z-index: 87;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1234px;
+  min-width: 1234px;
+  height: 116px;
+  margin-top: -116px;
+  margin-bottom: 0px;
+  min-height: 116px;
+}
+
+.G-lower-Foot-outer {
+  pointer-events: none;
+  z-index: 87;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Social-icons {
+  position: relative;
+  z-index: 88;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 163px;
+  min-width: 163px;
+  height: 22px;
+  margin-top: 0px;
+  margin-bottom: 94px;
+  min-height: 22px;
+}
+
+.Social-icons-outer {
+  pointer-events: none;
+  z-index: 88;
+  position: relative;
+  display: flex;
+}
+
+.q---icon--linkedin- {
+  position: relative;
+  z-index: 93;
+  pointer-events: none;
+  margin-left: 94px;
+  width: 22px;
+  min-width: 22px;
+  height: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 22px;
+}
+
+.q---icon--linkedin--outer {
+  pointer-events: none;
+  z-index: 93;
+  position: relative;
+  display: flex;
+}
+
+.Vector-1 {
+  position: relative;
+  z-index: 94;
+  pointer-events: auto;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/linkedin.svg);
+}
+
+.Vector-1-outer {
+  pointer-events: auto;
+  z-index: 94;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.q---icon--github- {
+  position: relative;
+  z-index: 91;
+  pointer-events: none;
+  margin-left: 47px;
+  width: 22px;
+  min-width: 22px;
+  height: 21.46px;
+  margin-top: -22px;
+  margin-bottom: 0.5399999999999636px;
+  min-height: 21.46px;
+}
+
+.q---icon--github--outer {
+  pointer-events: none;
+  z-index: 91;
+  position: relative;
+  display: flex;
+}
+
+.Vector-2 {
+  position: relative;
+  z-index: 92;
+  pointer-events: auto;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/github.svg);
+}
+
+.Vector-2-outer {
+  pointer-events: auto;
+  z-index: 92;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.q---icon--instagram- {
+  position: relative;
+  z-index: 89;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 22px;
+  min-width: 22px;
+  height: 22px;
+  margin-top: -22px;
+  margin-bottom: 0px;
+  min-height: 22px;
+}
+
+.q---icon--instagram--outer {
+  pointer-events: none;
+  z-index: 89;
+  position: relative;
+  display: flex;
+}
+
+.Vector-3 {
+  position: relative;
+  z-index: 90;
+  pointer-events: auto;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/instagram.svg);
+}
+
+.Vector-3-outer {
+  pointer-events: auto;
+  z-index: 90;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.q---icon--twitter- {
+  position: relative;
+  z-index: 95;
+  pointer-events: none;
+  margin-left: 141px;
+  width: 22px;
+  min-width: 22px;
+  height: 17.88px;
+  margin-top: -20px;
+  margin-bottom: 2.119999999999891px;
+  min-height: 17.88px;
+}
+
+.q---icon--twitter--outer {
+  pointer-events: none;
+  z-index: 95;
+  position: relative;
+  display: flex;
+}
+
+.Vector {
+  position: relative;
+  z-index: 96;
+  pointer-events: auto;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  content: url(images/twitter.svg);
+}
+
+.Vector-outer {
+  pointer-events: auto;
+  z-index: 96;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.lower-footer {
+  position: relative;
+  z-index: 97;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1234px;
+  min-width: 1234px;
+  height: 39px;
+  margin-top: -39px;
+  margin-bottom: 0px;
+  min-height: 39px;
+}
+
+.lower-footer-outer {
+  pointer-events: none;
+  z-index: 97;
+  position: relative;
+  display: flex;
+}
+
+.Line-1 {
+  position: relative;
+  z-index: 98;
+  pointer-events: none;
+  transform: rotate(-0.000005008956538086317deg);
+  margin-left: 0px;
+  width: 1234px;
+  min-width: 1234px;
+  margin-top: 0px;
+  margin-bottom: 39px;
+  min-height: undefinedpx;
+  border: 0.4000000059604645px solid rgba(153, 153, 153, 1);
+}
+
+.Line-1-outer {
+  pointer-events: none;
+  z-index: 98;
+  position: relative;
+  display: flex;
+}
+
+.bottom-foot {
+  position: relative;
+  z-index: 99;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 1234px;
+  min-width: 1234px;
+  height: 19px;
+  margin-top: -19px;
+  margin-bottom: 0px;
+  min-height: 19px;
+}
+
+.bottom-foot-outer {
+  pointer-events: none;
+  z-index: 99;
+  position: relative;
+  display: flex;
+}
+
+.q-2022-Dhruv-Patel-- {
+  position: relative;
+  z-index: 100;
+  pointer-events: none;
+  margin-left: 0px;
+  width: 275px;
+  min-width: 275px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 19px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(153, 153, 153, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.200000762939453px;
+}
+
+.q-2022-Dhruv-Patel---outer {
+  pointer-events: none;
+  z-index: 100;
+  position: relative;
+  display: flex;
+}
+
+.Terms-and-Conditions {
+  position: relative;
+  z-index: 101;
+  pointer-events: none;
+  margin-left: 940px;
+  width: 294px;
+  min-width: 294px;
+  margin-top: -18px;
+  margin-bottom: 1px;
+  min-height: 17px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  font-family: Futura Bk BT;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 16.80000114440918px;
+}
+
+.Terms-and-Conditions-outer {
+  pointer-events: none;
+  z-index: 101;
+  position: relative;
+  display: flex;
+}
+
+.D-VVV-1-span2 {
+  color: rgba(32, 193, 165, 1);
+}
+
+.home-text {
+  color: #d0d0d0;
+  text-decoration: none;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.home-text:hover{
+  color: #ffffff;
+}
+
+/* scroll bar */
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #0d0d0d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #151515;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #1e1e1e;
+}
+
+.nav-about-me-button {
+  color: #d0d0d0;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.nav-about-me-button:hover {
+  color: #ffffff;
+  transform: scale(1.01);
+}
+
+.nav-projects-button {
+  color: #d0d0d0;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-projects-button:hover {
+  color: #ffffff;
+  transform: scale(1.01);
+}
+
+.nav-socials-button {
+  color: #d0d0d0;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-socials-button:hover {
+  color: #ffffff;
+  transform: scale(1.01);
+}
+
+.nav-drive-button {
+  color: #d0d0d0;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-drive-button:hover {
+  color: #ffffff;
+  transform: scale(1.01);
+}
+
+.nav-nfts-button {
+  color: #d0d0d0;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-nfts-button:hover {
+  color: #ffffff;
+  transform: scale(1.01);
+}
